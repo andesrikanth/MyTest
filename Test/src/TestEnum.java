@@ -7,7 +7,7 @@ public enum TestEnum {
 	private TestEnum(String value) { this.value = value; }
 	public String value()
 	  {
-	    return this.value;
+	    return this.value;     
 	  }
 	
 	public static TestEnum fromValue(String v)
